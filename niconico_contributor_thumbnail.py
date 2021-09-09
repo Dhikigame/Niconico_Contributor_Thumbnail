@@ -42,8 +42,6 @@ def contributor_name_conv(contributor_name : str):
 
 if __name__ == "__main__":
 
-    # database = "/Users/daiki/Documents/python/niconico_stats/Statistics_Free2/analysis/db_ranking/VOICEROID実況.db"
-    # table = "best100"
     print("データベースのある場所を入力してください(例：./test.db)")
     database = input()
     print("""投稿者のサムネイルを取得したいテーブルを入力してください(例：best100)
