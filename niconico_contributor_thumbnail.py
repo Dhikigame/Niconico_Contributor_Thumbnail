@@ -106,3 +106,5 @@ if __name__ == "__main__":
         with open(image_target_pass[i], "wb") as download_dir:
             download_dir.write(image)
             print("ダウンロード：" + image_target_pass[i])
+    
+    print("【Contributor Thumbnail Download END】")
